@@ -23,7 +23,7 @@
         <section>
             <div class="user_container_info">
                 <label for="image">IMAGE LINK : </label>
-                <input type="link" id="image" required>
+                <input type="link" id="image">
                 <br><br>
                 <label for="name">FULL NAME : </label>
                 <input type="text" id="name">
@@ -59,15 +59,18 @@
                 </div>
                 <img src="default_pic.jpg" alt="" class="user_picture">
                 <br>
-                <input type="text" name="" id="user_name">
-                <br><label for="user_name">Name</label>
-                <br><br>
-                <input type="text" name="" id="user_id">
-                <br><label for="user_id">Student ID No.</label>
+                <!-- <input type="text" name="" id="user_name"> -->
+                <p id="user_name"></p>
+                <label class="label_id" for="user_name">Name</label>
+                
+                <!-- <input type="text" name="" id="user_id"> -->
+                <p id="user_id"></p>
+                <label class="label_id" for="user_id">Student ID No.</label>
                 <br>
-                <input type="text" name="" id="user_signature">
-                <br><label for="user_signature">Student Signature</label>
-                <br><br><br>
+                <!-- <input type="text" name="" id="user_signature"> -->
+                <p id="user_signature"></p>
+                <label class="label_id" for="user_signature">Student Signature</label>
+                <br><br>
                 <label class="user_bs" for="user_bs">B.S <span id="user_bs">information TECHNOLOGY</span></label>
 
             </div>

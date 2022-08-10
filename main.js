@@ -25,9 +25,9 @@ const user_parents_number = document.querySelector('#user_parents_number');
 btn.addEventListener('click',function(){
     if(image.value && personName.value && student_id.value &&  parents_name.value && parents_number.value && signature.value && bs.value){
         user_picture.src = image.value;
-        user_name.value = personName.value;
-        user_id.value = student_id.value;
-        user_signature.value = signature.value;
+        user_name.textContent = personName.value;
+        user_id.textContent = student_id.value;
+        user_signature.textContent = signature.value;
         user_bs.textContent = bs.value;
         user_parents.textContent = parents_name.value;
         user_parents_number.textContent = parents_number.value;
