@@ -10,7 +10,11 @@ body{
 }
 header{
     background-color: #00D7FF;
-
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    position: fixed;
 }
 header div{
     /* border: 1px solid; */
@@ -36,13 +40,14 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 10vh;
+    margin-top: 20vh;
     /* background-color: red; */
 }
 /* ==================================bg_video */
 .bg_video_wrapper{
     /* background: rgb(168, 221, 235); */
     position: absolute;
+    top: 0;
     z-index: -5;
     width: 100%;
     height: 100%;
