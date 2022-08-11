@@ -23,7 +23,8 @@ const user_parents = document.querySelector('#user_parents');
 const user_parents_number = document.querySelector('#user_parents_number');
 
 btn.addEventListener('click',function(){
-    if(image.value && personName.value && student_id.value &&  parents_name.value && parents_number.value && signature.value && bs.value){
+
+    if(image.value && personName.value && student_id.value &&  parents_name.value && parents_number.value && signature.value && signature.value.length < 15 && bs.value && bs.value.length  < 32){
         user_picture.src = image.value;
         user_name.textContent = personName.value;
         user_id.textContent = student_id.value;
@@ -32,7 +33,7 @@ btn.addEventListener('click',function(){
         user_parents.textContent = parents_name.value;
         user_parents_number.textContent = parents_number.value;
     }else{
-        alert('Some field is empty!')
+        alert('Some field is empty! or Some of your input is too long')
     }
 
 })

@@ -25,6 +25,7 @@ header div{
 header p{
     font-size: clamp(10px,5vw,25px);
     font-weight: bolder;
+    color: #073b50;
 }
 header img{
     width: 90px;
@@ -38,6 +39,7 @@ section{
     margin-top: 10vh;
     /* background-color: red; */
 }
+/* ==================================bg_video */
 /* =================================user input */
 .user_container_info{
     border: 1px solid;
@@ -54,8 +56,13 @@ section{
     font-family: courier;
     text-transform: capitalize;
 }
+.note{
+    font-size: small;
+    font-family: sans-serif;
+    font-style: italic;
+}
 .createIdBtn{
-    margin-top: 50px;
+    margin-top: 30px;
     width: 100%;
     padding: 10px;
     border-radius: 10px;
