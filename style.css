@@ -51,8 +51,8 @@ section{
     position: fixed;
 }
 .bg_video_wrapper video{
-    width: 100%;
-    height: auto;
+    width: 100vw;
+    /* height: 100vh; */
     /* width: auto;
     height: 100%; */
 }
@@ -288,7 +288,7 @@ section{
 
 @media (max-width:1600px){
     .bg_video_wrapper video{
-        width: auto;
+        width: unset;
         height: 100%;
     }
 }
@@ -308,10 +308,10 @@ section{
         margin-top: 5vh;
         margin-bottom: 100px;
     }
-    .bg_video_wrapper video{
+    /* .bg_video_wrapper video{
         width: auto;
         height: 100%;
-    }
+    } */
 }
 
 @media (max-width:380px){
